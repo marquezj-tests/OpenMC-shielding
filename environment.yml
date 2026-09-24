@@ -1,0 +1,5 @@
+name: openmc-env
+channels:
+  - conda-forge
+dependencies:
+  - openmc=0.16.0=nodagmc_nompi*
