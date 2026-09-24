@@ -55,3 +55,10 @@ python scripts/verify_photon_transport.py
 
 This runs a small fixed-source photon transport calculation (1 MeV photons
 into a 10 cm lead sphere) and prints the resulting flux and heating tallies.
+
+## Models
+
+- [`models/shultis_deep_shielding.py`](models/shultis_deep_shielding.py) —
+  the deep-shielding (point 7-MeV photon source in a 30-cm iron shell)
+  example from Shultis & Faw, *An MCNP Primer*. See
+  [`models/README.md`](models/README.md).
